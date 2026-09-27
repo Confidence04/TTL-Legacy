@@ -46,7 +46,7 @@ rusqlite = { version = "0.30", features = ["bundled", "i128_blob"] }
 
 # 2FA (TOTP/HMAC-SHA1) and global lazy singletons
 hmac = { version = "0.12", features = ["std"] }
-sha1 = { version = "0.10" }
+sha1 = { version = "0.11" }
 once_cell = "1"
 
 # Versioned schema migrations (Issue #1176) — runs migrations/*.sql against
